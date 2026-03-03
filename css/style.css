@@ -1,0 +1,113 @@
+/* -------------------- General Styles -------------------- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------- Header & Navbar Overrides -------------------- */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Bootstrap warning color for hover */
+}
+
+/* -------------------- Main Content -------------------- */
+main h2 {
+    margin-bottom: 1rem;
+    color: #003366;
+}
+
+main p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* -------------------- Images -------------------- */
+.img-fluid {
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+/* -------------------- Cards (Projects, Blog) -------------------- */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* -------------------- Tables -------------------- */
+table {
+    width: 100%;
+}
+
+table th, table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* -------------------- Forms -------------------- */
+form label {
+    font-weight: 500;
+}
+
+form input, form textarea {
+    border-radius: 5px;
+}
+
+/* -------------------- Footer -------------------- */
+footer {
+    font-size: 0.9rem;
+}
+
+/* -------------------- Responsive Spacing -------------------- */
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+/* -------------------- Buttons -------------------- */
+.btn-primary {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.btn-primary:hover {
+    background-color: #0077cc;
+    border-color: #0077cc;
+}
+
+/* -------------------- Lists -------------------- */
+.list-group-item {
+    font-size: 1rem;
+}
+
+/* -------------------- Misc -------------------- */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
